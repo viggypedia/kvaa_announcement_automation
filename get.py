@@ -81,10 +81,10 @@ def whatsapp():
 
     for i in range(0,len(a)):
         text+=a[i]
-       # wh.sendwhatmsg_to_group_instantly("EJGvYbQsBWTFgG2fJLj5Z7", a[i])
+     
        
 
-        ##wh.sendwhatmsg("+918420574546","LODU",20,45)
+        
     wh.sendwhatmsg_to_group_instantly("EJGvYbQsBWTFgG2fJLj5Z7",f"Good morning students and parents.\nFollowing are the school related announcements\n{text}")
 
 
